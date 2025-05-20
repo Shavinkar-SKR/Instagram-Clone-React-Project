@@ -6,8 +6,8 @@ import { TbMenu2 } from "react-icons/tb";
 
 function Sidebar() {
   return (
-    <div className="m-6">
-      <div className="flex flex-col gap-y-3">
+    <div className="fixed m-6 mx-10">
+      <div className="flex flex-col gap-y-7 text-xl">
         <img
           src="src/assets/Instagram_logo.svg.png"
           alt="insta text logo"
@@ -53,7 +53,7 @@ function Sidebar() {
         </div>
       </div>
 
-      <div className="fixed bottom-7 flex flex-col gap-y-3">
+      <div className="fixed bottom-7 flex flex-col gap-y-6 text-xl">
         <div className="flex items-center space-x-2">
           <BsThreads />
           <span>Threads</span>

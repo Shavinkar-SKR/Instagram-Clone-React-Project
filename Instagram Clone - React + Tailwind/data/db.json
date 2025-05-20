@@ -5,9 +5,9 @@
       "user": {
         "id": 101,
         "username": "tony_stark",
-        "profile_pic": "src/assets/tony_stark_profile.jpg"
+        "profile_pic": "src/assets/iron-pro.jpg"
       },
-      "image": "src/assets/ironman_armor.jpg",
+      "image": "src/assets/iron-man.webp",
       "caption": "Sometimes you gotta run before you can walk. #IronMan #Avengers",
       "likes": 4250,
       "comments": [
@@ -20,16 +20,17 @@
           "comment": "Mr. Stark! That new armor is sick!!"
         }
       ],
-      "timestamp": "2025-02-11T14:30:00Z"
+      "timestamp": "2025-02-11T14:30:00Z",
+      "time": "3h"
     },
     {
       "id": 2,
       "user": {
         "id": 102,
         "username": "captain_america",
-        "profile_pic": "src/assets/steve_rogers_profile.jpg"
+        "profile_pic": "src/assets/cap-pro.jpg"
       },
-      "image": "src/assets/captain_shield.jpg",
+      "image": "src/assets/cap.webp",
       "caption": "I can do this all day. #Cap #Avengers",
       "likes": 3800,
       "comments": [
@@ -42,16 +43,17 @@
           "comment": "Looking good, old man."
         }
       ],
-      "timestamp": "2025-02-10T09:15:00Z"
+      "timestamp": "2025-02-10T09:15:00Z",
+      "time": "8h"
     },
     {
       "id": 3,
       "user": {
         "id": 103,
         "username": "thor_odinson",
-        "profile_pic": "src/assets/thor_profile.jpg"
+        "profile_pic": "src/assets/thor-pro.jpg"
       },
-      "image": "src/assets/thor_stormbreaker.jpg",
+      "image": "src/assets/thor.jpg",
       "caption": "I'm still worthy! #GodOfThunder #Avengers",
       "likes": 5100,
       "comments": [
@@ -64,16 +66,17 @@
           "comment": "Nice hammer... I mean axe."
         }
       ],
-      "timestamp": "2025-02-09T18:45:00Z"
+      "timestamp": "2025-02-09T18:45:00Z",
+      "time": "21h"
     },
     {
       "id": 4,
       "user": {
         "id": 104,
         "username": "black_widow",
-        "profile_pic": "src/assets/natasha_profile.jpg"
+        "profile_pic": "src/assets/bw-pro.jpg"
       },
-      "image": "src/assets/widow_pose.jpg",
+      "image": "src/assets/black-widow.webp",
       "caption": "I'm always picking up after you boys. #Avengers",
       "likes": 3950,
       "comments": [
@@ -86,16 +89,17 @@
           "comment": "You're amazing, Nat."
         }
       ],
-      "timestamp": "2025-02-08T12:20:00Z"
+      "timestamp": "2025-02-08T12:20:00Z",
+      "time": "7h"
     },
     {
       "id": 5,
       "user": {
         "id": 105,
         "username": "hulk_smash",
-        "profile_pic": "src/assets/hulk_profile.jpg"
+        "profile_pic": "src/assets/hulk-pro.jpg"
       },
-      "image": "src/assets/hulk_smashing.jpg",
+      "image": "src/assets/hulk.webp",
       "caption": "HULK SMASH! #StrongestAvenger",
       "likes": 4800,
       "comments": [
@@ -108,16 +112,17 @@
           "comment": "That's my guy!"
         }
       ],
-      "timestamp": "2025-02-07T16:10:00Z"
+      "timestamp": "2025-02-07T16:10:00Z",
+      "time": "4h"
     },
     {
       "id": 6,
       "user": {
         "id": 106,
         "username": "doctor_strange",
-        "profile_pic": "src/assets/strange_profile.jpg"
+        "profile_pic": "src/assets/ds-pro.jpeg"
       },
-      "image": "src/assets/strange_spells.jpg",
+      "image": "src/assets/docter-strange.jpg",
       "caption": "We're in the endgame now. #SorcererSupreme",
       "likes": 3600,
       "comments": [
@@ -130,7 +135,8 @@
           "comment": "That's so cool! Can you teach me?"
         }
       ],
-      "timestamp": "2025-02-06T20:30:00Z"
+      "timestamp": "2025-02-06T20:30:00Z",
+      "time": "1h"
     }
   ]
 }
