@@ -138,5 +138,44 @@
       "timestamp": "2025-02-06T20:30:00Z",
       "time": "1h"
     }
+  ],
+
+  "profile": {
+    "id": 100,
+    "username": "nick_fury",
+    "profile_pic": "./src/assets/nick.jpg"
+  },
+
+  "suggestions": [
+    {
+      "id": 101,
+      "username": "tony_stark",
+      "profile_pic": "src/assets/iron-pro.jpg"
+    },
+    {
+      "id": 102,
+      "username": "captain_america",
+      "profile_pic": "src/assets/cap-pro.jpg"
+    },
+    {
+      "id": 103,
+      "username": "hulk_smash",
+      "profile_pic": "src/assets/hulk-pro.jpg"
+    },
+    {
+      "id": 104,
+      "username": "black_widow",
+      "profile_pic": "src/assets/bw-pro.jpg"
+    },
+    {
+      "id": 105,
+      "username": "doctor_strange",
+      "profile_pic": "src/assets/ds-pro.jpeg"
+    },
+    {
+      "id": 106,
+      "username": "thor_odinson",
+      "profile_pic": "src/assets/thor-pro.jpg"
+    }
   ]
 }
