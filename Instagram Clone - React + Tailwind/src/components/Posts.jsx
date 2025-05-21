@@ -35,7 +35,7 @@ function Posts() {
                   alt="Profile picture"
                 />
                 <h5>{post.user.username}</h5>
-                <p> • {post.time}</p>
+                <p className="text-gray-400"> • {post.time}</p>
               </div>
 
               <div>

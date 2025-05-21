@@ -6,12 +6,12 @@ import { TbMenu2 } from "react-icons/tb";
 
 function Sidebar() {
   return (
-    <div className="fixed m-6 mx-10">
-      <div className="flex flex-col gap-y-7 text-xl">
+    <div className="fixed m-8 mx-6 ">
+      <div className="flex flex-col gap-y-6 text-3xl">
         <img
           src="src/assets/Instagram_logo.svg.png"
           alt="insta text logo"
-          className="w-24"
+          className="w-28 mb-2"
         ></img>
         <div className="flex items-center space-x-2">
           <BiHome />
@@ -53,7 +53,7 @@ function Sidebar() {
         </div>
       </div>
 
-      <div className="fixed bottom-7 flex flex-col gap-y-6 text-xl">
+      <div className="fixed bottom-7 flex flex-col gap-y-6 text-3xl">
         <div className="flex items-center space-x-2">
           <BsThreads />
           <span>Threads</span>
