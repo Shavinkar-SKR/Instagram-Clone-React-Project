@@ -31,22 +31,24 @@ function Suggestions() {
   return (
     <>
       {profile ? (
-        <>
-          <div className="flex mt-9 justify-evenly">
+        <div className="">
+          <div className="flex mt-6 justify-between ml-15 mr-15">
             <div className="flex">
               <img
-                className="rounded-full h-15 w-15"
+                className="rounded-full h-13 w-13"
                 src={profile.profile_pic}
                 alt="Profile picture"
               />
-              <div className="ml-2">{profile.username}</div>
+              <div className="ml-3 mt-2">
+                <b>{profile.username}</b>
+              </div>
             </div>
             <div className="flex items-center text-cyan-500">
               <p>Switch</p>
             </div>
           </div>
 
-          <div className="flex justify-evenly mt-5">
+          <div className="flex justify-between ml-15 mr-15 mt-4">
             <p>Suggested for you</p>
             <b>
               <p className="text-sm">See all</p>
@@ -57,14 +59,43 @@ function Suggestions() {
             {suggestions.length > 0 ? (
               <div>
                 {suggestions.map((suggest) => (
-                  <div key={suggest.id}>{suggest.id}</div>
+                  <div key={suggest.id}>
+                    <div className="flex justify-between ml-15 mr-15 mt-2">
+                      <div className="flex w-45">
+                        <img
+                          className="rounded-full w-13 h-13"
+                          src={suggest.profile_pic}
+                          alt="Profile_picture"
+                        />
+                        <div className="ml-3 mt-2">
+                          <p>
+                            <b>{suggest.username}</b>
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center text-cyan-500">
+                        Follow
+                      </div>
+                    </div>
+                  </div>
                 ))}
               </div>
             ) : (
               <div>Loading Suggestions</div>
             )}
+            <div className="ml-15 mr-15 mt-8">
+              <p className="text-gray-400 text-xs">
+                About . Help . Press . API . Privacy . Terms . Locations .
+                Language . Meta Verified
+              </p>
+
+              <div className="text-gray-400 mt-5">
+                &copy; 2025 INSTAGRAM FROM META
+              </div>
+            </div>
           </div>
-        </>
+        </div>
       ) : (
         <div>Loading</div>
       )}
