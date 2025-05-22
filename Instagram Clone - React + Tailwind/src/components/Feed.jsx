@@ -5,7 +5,7 @@ function Feed() {
   return (
     <>
       <div className="flex flex-col">
-        <div className="bg-cyan-300 h-30">
+        <div className="h-30 mb-6">
           <Story />
         </div>
         <div>
