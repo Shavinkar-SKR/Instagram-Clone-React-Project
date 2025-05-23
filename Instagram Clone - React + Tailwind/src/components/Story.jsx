@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
+import { useNavigate, Link } from "react-router-dom";
 
 function Story() {
   const [stories, setStories] = useState([]);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("http://localhost:3000/stories")
@@ -20,7 +23,13 @@ function Story() {
     <div className="flex ml-[45px]">
       {stories.length > 0 ? (
         stories.map((story) => (
-          <div key={story.id} className="ml-4 mt-5">
+          <div
+            key={story.id}
+            className="ml-4 mt-5"
+            onClick={() => {
+              navigate(`/story/${story.id}`);
+            }}
+          >
             <div className="gradient-border">
               <div className="inner-border">
                 <img

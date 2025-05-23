@@ -22,9 +22,8 @@ function ViewStory() {
   return (
     <>
       {story ? (
-        <div>
-          {story.user.username}
-          <img src={story.image} alt="image" />
+        <div className="flex justify-center">
+          <img className="h-screen rounded-lg" src={story.image} alt="story" />
         </div>
       ) : (
         <div>Loading</div>
