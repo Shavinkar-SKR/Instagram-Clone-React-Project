@@ -187,7 +187,7 @@
         "username": "tony_stark",
         "profile_pic": "src/assets/iron-pro.jpg"
       },
-      "image": "src/assets/iron-man.webp",
+      "image": "/src/assets/iron-man.webp",
       "timestamp": "2025-02-11T14:30:00Z",
       "time": "3h"
     },
@@ -198,7 +198,7 @@
         "username": "captain_america",
         "profile_pic": "src/assets/cap-pro.jpg"
       },
-      "image": "src/assets/cap.webp",
+      "image": "/src/assets/cap.webp",
       "timestamp": "2025-02-10T09:15:00Z",
       "time": "8h"
     },
@@ -209,7 +209,7 @@
         "username": "thor_odinson",
         "profile_pic": "src/assets/thor-pro.jpg"
       },
-      "image": "src/assets/thor.jpg",
+      "image": "/src/assets/thor.jpg",
       "timestamp": "2025-02-09T18:45:00Z",
       "time": "21h"
     },
@@ -220,7 +220,7 @@
         "username": "black_widow",
         "profile_pic": "src/assets/bw-pro.jpg"
       },
-      "image": "src/assets/black-widow.webp",
+      "image": "/src/assets/black-widow.webp",
       "timestamp": "2025-02-08T12:20:00Z",
       "time": "7h"
     },
@@ -231,7 +231,7 @@
         "username": "hulk_smash",
         "profile_pic": "src/assets/hulk-pro.jpg"
       },
-      "image": "src/assets/hulk.webp",
+      "image": "/src/assets/hulk.webp",
       "timestamp": "2025-02-07T16:10:00Z",
       "time": "4h"
     },
@@ -242,7 +242,7 @@
         "username": "doctor_strange",
         "profile_pic": "src/assets/ds-pro.jpeg"
       },
-      "image": "src/assets/docter-strange.jpg",
+      "image": "/src/assets/docter-strange.jpg",
       "timestamp": "2025-02-06T20:30:00Z",
       "time": "1h"
     }
