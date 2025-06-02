@@ -4,6 +4,8 @@ function Suggestions() {
   const [suggestions, setSuggestions] = useState(null);
   const [profile, setProfile] = useState(null);
 
+  const [following, setFollowing] = useState(false);
+
   useEffect(() => {
     fetch("http://localhost:3000/profile")
       .then((data) => {
@@ -77,7 +79,13 @@ function Suggestions() {
                       </div>
 
                       <div className="flex items-center text-cyan-500 text-xs">
-                        Follow
+                        <button
+                          onClick={() => {
+                            setFollowing(true);
+                          }}
+                        >
+                          <p>{following ? "Following" : "Follow"}</p>
+                        </button>
                       </div>
                     </div>
                   </div>
